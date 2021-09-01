@@ -1,0 +1,1533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link rel="shortcut icon" href="./img/logo.png" type="image/png">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/html5.css">
+    <title>MOTION_WD</title>
+
+</head>
+<body>
+<header id="header" class="fixed-top">
+    <div class="container">
+        <div class="menu">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html"><img class="logo" src="./img/logo.png" alt=""></a>
+                    <!--                    <div class="search-input">-->
+                    <!--                        <input class="input-in" type="text" value="">-->
+                    <!--                        <button class="search-button"><img class="search-btn" src="./img/magnifier.svg" alt=""></button>-->
+                    <!--                    </div>-->
+
+
+                    <div id="navbarNav">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="header__link" href="html5.html">HTML 5</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="header__link" href="css3.html">CSS 3</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="header__link" href="video.html">ВИДЕО</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div>
+</header>
+<section style="background:#000; height: 1000vh;">
+    <div class="container">
+        <!------------------------------------------------------------------------------------------------------------->
+        <h1 class="hero__title">Бардык CSS тегдер</h1>
+        <!------------------------------------------------------------------------------------------------------------->
+        <div class="hero__accordion">
+            <div class="accordion accordion-flush" id="accordionFlushExample1">
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading1">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse1" aria-expanded="false" aria-controls="flush-collapse1">
+                            <code class="tag">flex-direction</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse1" class="accordion-collapse collapse" aria-labelledby="flush-heading1"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>flex-direction</code>
+                                Мүлк ийкемдүү контейнерге мүнөздүү. Учурдагы жазуу режимине негизделип, ийкемдүү
+                                нерселер тизилген негизги огунун багытын көзөмөлдөйт. Тукум кууган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>flex-direction</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>row</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Демейки оңдон солго (rtl, оңдон солго). Flex нерселери линияга жайгаштырылган.
+                                        Негизги огунун башкы башталышы жана негизги аягы багыттары саптын огунун кире
+                                        башталышына жана саптын аягына туура келет.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>row-reverse</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Оңдон солго багыт (солдон оңго rtl менен). Ийкемдүү нерселер контейнердин оң
+                                        четине карата сызыкка жайгаштырылган (rtl - сол жакта).
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>column</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Жогорудан төмөн карай багыт. Flex нерселери бир тилкеде жайгаштырылган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>column-reverse</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Төмөндөн өйдө карай тескери тартипте элементтери бар мамыча.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading2">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse2" aria-expanded="false" aria-controls="flush-collapse2">
+                            <code class="tag">flex-wrap</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse2" class="accordion-collapse collapse" aria-labelledby="flush-heading2"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>flex-wrap</code>
+                                Кыймыл ийкемдүү контейнердин бир саптуу же көп линиялуу болорун аныктайт, ошондой эле
+                                ийилчээк контейнердин жаңы линиялары кайсы багытта топтолгонун аныктаган кайчылаш огунун
+                                багытын белгилейт.
+                                <br><br>
+                                Демейки боюнча, ийкемдүү нерселер негизги октун боюна бир сапта тизилет. Эгерде алар
+                                ашып кетсе, алар ийкемдүү контейнердин чектөөчү кутусунун сыртына чыгып кетишет. Мүлк
+                                мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>flex-wrap</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>nowrap</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Демейки маани. Flex нерселери оролуп калбайт, бирок солдон оңго карай бир сапта
+                                        жайгашат (rtlде оңдон солго).
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>wrap</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Flex нерселери солдон оңго (rtl менен оңдон солго чейин) бир нече горизонталдык
+                                        саптарга оролот (эгер алар бир катарга туура келбесе).
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>wrap-reverse</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Flex нерселери солдон оңго тескери тартипте жаңы саптарга оролот, ороо төмөндөн
+                                        жогору карай болот.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading3">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse3" aria-expanded="false" aria-controls="flush-collapse3">
+                            <code class="tag">flex-flow</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse3" class="accordion-collapse collapse" aria-labelledby="flush-heading3"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>flex-flow</code>
+                                Мүлк негизги жана кайчылаш октордун багыттарын аныктоого, ошондой эле керек болсо,
+                                ийкемдүү нерселерди бир нече сызыкка ороо мүмкүнчүлүгүн берет. Бул ийилүү багыты жана
+                                ийкемдүү ороо касиеттери үчүн стенография. Демейки flex-flow: row nowrap;. мүлк мураска
+                                калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>flex-flow</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>багыт</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Указывает направление главной оси. Значение по умолчанию <code>row</code>.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>көп сызыктуу</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Кайчылаш огунун көп сызыгын коёт. По умолчанию nowrap.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading4">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse4" aria-expanded="false" aria-controls="flush-collapse4">
+                            <code class="tag">order</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse4" class="accordion-collapse collapse" aria-labelledby="flush-heading4"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>order</code>
+                                Мүлк ийкемдүү нерселердин көрсөтүлүшүн жана ийкемдүү контейнердин ичинде жайгашуу
+                                тартибин аныктайт. Ийкемдүү нерселерге колдонулат. Мүлк мураска калган эмес.
+                                <br><br>
+                                Башында бардык ийкемдүү нерселердин тартиби бар: 0;. Элемент үчүн -1дин ортосунда
+                                маанини көрсөтсөңүз, ал убакыт тилкесинин башына, ал эми аягына чейин 1 мааниге өтөт.
+                                Эгерде бир нече ийкемдүү нерселер бирдей заказ маанисине ээ болсо, алар баштапкы
+                                тартибине ылайык көрсөтүлөт.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>order</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>сан</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Бул касиет ийкемдүү нерселерди көрсөтүү тартибин көзөмөлдөгөн бүтүн сан. Демейки
+                                        0.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading5">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse5" aria-expanded="false" aria-controls="flush-collapse5">
+                            <code class="tag">flex-grow</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse5" class="accordion-collapse collapse" aria-labelledby="flush-heading5"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>flex-grow</code>
+                                Позитивдүү ак мейкиндикти бөлүштүрүүдө бир ийкемдүү нерсенин ийилчээк контейнердеги
+                                башка ийкемдүү нерселерге салыштырмалуу канчалык өсөөрүн аныктайт. Эгерде ийкемдүү
+                                нерселердин ийкемдүү өсүү маанилеринин суммасы 1ден аз болсо, алар бош орундун 100% дан
+                                азыраагын ээлейт. Мүлк мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>flex-grow</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>сан</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Ийкемдүү нерсенин өсүү темпин белгилеген оң бүтүн же бөлчөк сан. Демейки 0.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading6">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse6" aria-expanded="false" aria-controls="flush-collapse6">
+                            <code class="tag">flex-shrink</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse6" class="accordion-collapse collapse" aria-labelledby="flush-heading6"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>flex-shrink</code>
+                                Мүлк терс ак мейкиндикти бөлүштүрүүдө ийкемдүү нерсенин башка ийкемдүү нерселерге
+                                салыштырмалуу канча кичирейээрин аныктайт. Негизги базалык өлчөмгө көбөйтүлөт. Терс
+                                мейкиндик буюмдун канчалык кичирейишине жараша бөлүнөт, андыктан, мисалы, кичинекей
+                                ийкемдүү нерсе чоңураак ийкемдүү нерсе байкалмайынча нөлгө чейин кыскарбайт. Мүлк
+                                мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>flex-shrink</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>сан</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Ийкемдүү нерсенин кичирейтүү катышын көрсөтүүчү оң бүтүн же бөлчөк сан. Демейки
+                                        1.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading7">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse7" aria-expanded="false" aria-controls="flush-collapse7">
+                            <code class="tag">flex-basis</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse7" class="accordion-collapse collapse" aria-labelledby="flush-heading7"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>flex-basis</code>
+                                Мүлк ийкемдүү нерсенин баштапкы базалык өлчөмүн ийкемдүүлүк коэффициенттерине ылайык бош
+                                орун бөлүнгөнгө чейин коет. <code>auto</code> жана <code>content</code>`тен башка бардык
+                                баалуулуктар үчүн, базалык
+                                ийилчээк өлчөм туурасынан жазуу режимдеринде туурасы сыяктуу аныкталат. Пайыздар
+                                ийкемдүү контейнердин өлчөмүнө салыштырмалуу, эгерде эч кандай өлчөм көрсөтүлбөсө,
+                                ийкемдүү негиз үчүн колдонулган маани анын мазмунунун өлчөмү. Тукум кууган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>flex-basis</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>auto</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Демейки маани. Элементке анын мазмунунун өлчөмүнө туура келген базалык өлчөм
+                                        берилет (эгер так белгиленбесе).
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>content</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги өлчөмдү ийкемдүү нерсенин мазмунунун негизинде аныктайт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>узундугу</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Базанын өлчөмү туурасы жана бийиктиги сыяктуу аныкталат. Узундук бирдигинде
+                                        көрсөтүлгөн.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading8">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse8" aria-expanded="false" aria-controls="flush-collapse8">
+                            <code class="tag">justify-content</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse8" class="accordion-collapse collapse" aria-labelledby="flush-heading8"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>justify-content</code>
+                                Мүлк ийкемдүү нерселерди ээлебеген бош мейкиндикти бөлүштүрүп, ийкемдүү контейнердин
+                                негизги огуна тегиздейт. Элемент ийкемдүү контейнерге айландырылганда, ийкемдүү нерселер
+                                демейки боюнча топтоштурулат (эгер алар үчүн белгиленген <code>margin</code> болбосо).
+                                Боштук <code>margin</code>
+                                жана <code>flex-grow</code> өсүү маанилерин эсептеп чыккандан кийин кошулат. Эгерде
+                                кандайдыр бир
+                                нерселерде нөлдүк эмес <code>flex-grow</code> же <code>margin</code> болсо:
+                                <code>auto</code>; мааниси, мулк эч кандай таасир
+                                этпейт. Мүлк мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>justify-content</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>flex-start</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Демейки маани. Ийкемдүү нерселер ийилчээк контейнердин баштапкы сызыгынан
+                                        алысыраак жайгаштырылган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>flex-end</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Ийкемдүү нерселер ийкемдүү контейнердин акыркы сызыгынан алысыраак багытта
+                                        жайгаштырылган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>center</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Flex нерселери ийкемдүү контейнердин ортосуна тизилген.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>space-between</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Flex буюмдары сызык боюнча бирдей бөлүштүрүлөт. Биринчи ийилүү пункту баштапкы
+                                        сызыктын чети менен бирдей жайгаштырылган, акыркы ийкемдүү нерсе акыркы сызыктын
+                                        чети менен бирдей, калган сызыктагы ийкемдүү нерселер ар кандай эки чектеш
+                                        нерселердин ортосундагы боштукту жайгаштырган. ошол эле Эгерде калган бош
+                                        мейкиндик терс болсо же бир сапта бир гана ийкемдүү пункт болсо, бул маани
+                                        <code>flex-start</code> параметрине окшош.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>space-around</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Саптагы ийкемдүү нерселер эки чектеш ийкемдүү нерселердин аралыгы бирдей болушу
+                                        үчүн, ал эми биринчи / акыркы ийкемдүү нерселер менен ийилчээк контейнердин
+                                        четтеринин ортосундагы аралык ийкемдүү нерселердин жарымына барабар.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading9">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse9" aria-expanded="false" aria-controls="flush-collapse9">
+                            <code class="tag">align-items</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse9" class="accordion-collapse collapse" aria-labelledby="flush-heading9"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>align-items</code>
+                                Свойство выравнивает flex-элементы, в том числе и анонимные flex-элементы по поперечной
+                                оси. Не наследуется.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>align-items</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>flex-start</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Ийкемдүү нерсенин жогорку чети кайчылаш огунун келип чыгышы аркылуу ийкемдүү
+                                        сызыкка (же интервалга, элементтин белгиленген чегин <code>margin</code> жана
+                                        чек арасын <code>border</code> эске алуу
+                                        менен) жайгаштырылган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>flex-end</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Ийкемдүү нерсенин астыңкы чети кайчылаш огунун аягында ийкемдүү сызыкка (же
+                                        интервалга, нерсенин белгиленген чегин <code>margin</code> жана чек арасын
+                                        <code>border</code> эске алуу менен)
+                                        жайгаштырылган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>center</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Ийкемдүү нерсенин чектери ийкемдүү сызыктын ичиндеги кайчылаш огунда
+                                        борборлоштурулган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>baseline</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Тегиздөөгө катышкан бардык ийкемдүү нерселердин негиздери бирдей.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>stretch</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Эгерде ийкемдүү нерсенин кайчылаш өлчөмү автоматтык болсо жана кайчылаш
+                                        четтеринин бири да автоматтык болбосо, нерсе созулат. Демейки маани.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading10">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse10" aria-expanded="false"
+                                aria-controls="flush-collapse10">
+                            <code class="tag">align-self</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse10" class="accordion-collapse collapse" aria-labelledby="flush-heading10"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>align-self</code>
+                                Мүлк ийкемдүү контейнердин бийиктигине бир ийкемдүү нерсени тегиздөө үчүн жооптуу.
+                                <code>align-items</code> тарабынан көрсөтүлгөн тегиздөөнү жокко чыгарат. Тукум кууган
+                                эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>align-self</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>auto</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Демейки маани. Ийкемдүү нерсе ийкемдүү контейнердин <code>align-items</code>
+                                        касиетинде көрсөтүлгөн тегиздөөнү колдонот.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>flex-start</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Ийкемдүү нерсенин жогорку чети кайчылаш огунун келип чыгышы аркылуу ийкемдүү
+                                        сызыкка (же интервалга, элементтин белгиленген чегин <code>margin</code> жана
+                                        чек арасын <code>border</code> эске алуу
+                                        менен) жайгаштырылган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>flex-end</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Ийкемдүү нерсенин астыңкы чети кайчылаш огунун аягында ийкемдүү сызыкка (же
+                                        интервалга, нерсенин белгиленген чегин <code>margin</code> жана чек арасын
+                                        <code>border</code> эске алуу менен)
+                                        жайгаштырылган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>center</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Ийкемдүү нерсенин чектери ийкемдүү сызыктын ичиндеги кайчылаш огунда
+                                        борборлоштурулган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>baseline</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Ийкемдүү пункт баштапкы сызыкка дал келтирилген.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>stretch</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Эгерде ийкемдүү нерсенин кайчылаш өлчөмү автоматтык болсо жана кайчылаш
+                                        четтеринин бири да автоматтык болбосо, нерсе созулат. Демейки маани.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading11">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse11" aria-expanded="false"
+                                aria-controls="flush-collapse11">
+                            <code class="tag">align-content</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse11" class="accordion-collapse collapse" aria-labelledby="flush-heading11"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>align-content</code>
+                                Кыймыл огунда кошумча боштук болгондо, мулк контейнердеги саптарды тегиздейт, негиздөөчү
+                                мазмундун касиетин колдонуп, негизги октогу айрым нерселерди тегиздөө сыяктуу. Мүлк бир
+                                кабаттуу ийкемдүү контейнерге эч кандай таасир этпейт. Тукум кууган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>align-content</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>flex-start</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Саптар ийкемдүү контейнердин башына карай тизилет. Биринчи саптын чети ийилчээк
+                                        контейнердин четине жакын жайгаштырылган, ар бир кийинки сап мурунку сапка жакын
+                                        жайгаштырылган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>flex-end</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Саптар ийкемдүү контейнердин аягына чейин тизилет. Акыркы саптын чети ийилчээк
+                                        контейнердин четине жакын жайгаштырылган, ар бир мурунку сап кийинки сапка жакын
+                                        жайгаштырылган.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>center</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Саптар ийкемдүү контейнердин ортосуна карай тизилген. Катарлар бири -бирине
+                                        жакын жана ийкемдүү контейнердин борборуна ийкемдүү контейнердин баштапкы чети
+                                        менен биринчи сызыктын ортосунда, ошондой эле ийкемдүү контейнердин мазмунунун
+                                        акыркы чети менен акыркы саптын ортосунда тегизделет.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>space-between</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Сызыктар ийкемдүү контейнерге бирдей жайгаштырылган. Эгерде калган бош орун терс
+                                        болсо же ийкемдүү контейнерде бир гана ийкемдүү сызык болсо, бул маани
+                                        <code>flex-start</code> менен бирдей. Болбосо, биринчи саптын чети ийилчээк
+                                        контейнердин
+                                        башталыш четине жакын жайгаштырылган, ал эми акыркы саптын чети ийкемдүү
+                                        контейнер мазмунунун арткы четине жакын жайгаштырылган. Калган сызыктар чектеш
+                                        эки сызыктын ортосундагы аралык бирдей болуп бөлүштүрүлөт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>space-around</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Саптар эки учунда жарым боштук менен ийкемдүү контейнерге бирдей жайгаштырылган.
+                                        Калган бош орун терс болсо, бул көрсөткүч <code>center</code> бирдей. Болбосо,
+                                        сызыктар эки
+                                        чектеш сызыктын аралыгы бирдей болуп, биринчи / акыркы сызыктар менен ийкемдүү
+                                        контейнердин четтеринин ортосундагы аралык линиялардын ортосундагы аралыктын
+                                        жарымын түзөт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>stretch</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Демейки маани. Ийкемдүү нерселердин катарлары бардык боштукту толтуруу үчүн
+                                        бирдей созулат. Калган бош орун терс болсо, бул маани <code>flex-start</code>
+                                        менен бирдей.
+                                        Болбосо, бош мейкиндик бардык сызыктарга бирдей бөлүнүп, алардын каптал өлчөмүн
+                                        көбөйтөт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading12">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse12" aria-expanded="false"
+                                aria-controls="flush-collapse12">
+                            <code class="tag">animation-duration</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse12" class="accordion-collapse collapse" aria-labelledby="flush-heading12"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>animation-duration</code>
+                                касиети бир анимация циклинин узактыгын аныктайт. Секунда(s) же
+                                миллисекундтарда(ms). Эгерде бир элемент үчүн бир нече анимация көрсөтүлгөн болсо, анда
+                                үтүр менен ажыратылган маанилерди тизмектөө менен ар бирине башка убакытты коюуга болот.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>animation-duration</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>Убакыт</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимациянын бир циклди бүтүрүү үчүн керектүү убакытты көрсөтөт. Терс
+                                        баалуулуктар жараксыз. Эгерде убакыт 0с болсо, анимациянын негизги кадрлары эч
+                                        кандай таасир бербейт, бирок анимациянын өзү заматта болот. Демейки 0с.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading13">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse13" aria-expanded="false"
+                                aria-controls="flush-collapse13">
+                            <code class="tag">animation-name</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse13" class="accordion-collapse collapse" aria-labelledby="flush-heading13"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>animation-name</code>
+                                касиети элементке колдонула турган анимациялардын тизмесин аныктайт. Ар
+                                бир аталыш анимация үчүн мулк баалуулуктарын камсыз кылган эрежеде ачкыч кадрды тандоо
+                                үчүн колдонулат. Эгерде ат эрежедеги негизги кадрларга дал келбесе, анимациянын касиети
+                                жок, анимациянын аты жок, анимация иштебейт.
+                                <br><br>
+                                Эгерде бир эле анимация бир эле касиетин өзгөртүүгө аракет кылса, аттардын тизмесинин
+                                аягына жакын анимация аткарылат.
+                                <br><br>
+                                Анимациянын аталышы чоң -кичине сезгич; эч бир ачкыч сөзүнө уруксат жок. Анимациянын
+                                маңызын чагылдырган ысымды колдонуу сунушталат, ошол эле учурда сиз дефис менен жазылган
+                                бир же бир нече сөздү колдоно аласыз - же _ астын сызуу белгиси.
+
+                                Мүлк мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>animation-name</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>none</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация жок экенин көрсөтөт. Ошондой эле анимацияланган элементтер тобунан бир
+                                        элементтин анимациясын жокко чыгаруу үчүн колдонулат. Демейки маани.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>анимация аты</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        @Keyframes эрежесин селекторго байлаган анимациянын аты.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading14">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse14" aria-expanded="false"
+                                aria-controls="flush-collapse14">
+                            <code class="tag">animation-timing-function</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse14" class="accordion-collapse collapse" aria-labelledby="flush-heading14"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>animation-timing-function</code>
+                                касиети анимациянын негизги жээкчелердин ар биринде кантип
+                                өрчүй турганын сүрөттөйт. Убактылуу функциялар анимацияны кечиктирүүдө колдонулбайт.
+
+                                Мүлк мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>animation-timing-function</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>linear</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Сызыктуу функция, анимация ылдамдыктын өзгөрүүсүз, бүт убакыттын ичинде бирдей
+                                        болот.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>ease</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Демейки функция, анимация жай башталат, тез ылдамдайт жана аягында жайлайт.
+                                        Шайкеш <code>cubic-bezier(0.25,0.1,0.25,1)</code>.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>ease-in</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация акырындык менен башталып, аягында акырындык менен ылдамдайт. Шайкеш
+                                        <code>cubic-bezier(0.42,0,1,1)</code>.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>ease-out</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация тез башталат жана аягында жай басат.
+                                        Шайкеш <code>cubic-bezier(0,0,0.58,1)</code>.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>ease-in-out</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация медленно начинается и медленно заканчивается.
+                                        Шайкеш <code>cubic-bezier(0.42,0,0.58,1)</code>.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>cubic-bezier(x1, y1, x2, y2)</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        0дон 1ге чейинки баалуулуктарды кол менен коюуга мүмкүндүк берет. Бул сайтта сиз
+                                        анимация ылдамдыгынын каалаган траекториясын кура аласыз.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>step-start</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Кадамдык анимацияны аныктайт, анимацияны сегменттерге бөлүп, ар бир кадамдын
+                                        башында өзгөрүүлөр болот. Кадамдар менен steps(1, start).
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>step-end</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Кадамдык анимация, ар бир кадамдын аягында өзгөрүүлөр болот. Кадамдар менен
+                                        steps(1, end).
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>steps(кадамдардын саны, кадам позициясы)</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Эки параметрди талап кылган кадамдык убакыт функциясы. Биринчи параметр
+                                        функциядагы интервалдардын санын көрсөтөт. Бул позитивдүү бүтүндүк болушу керек.
+                                        экинчи параметр jump -none болбосо, 0ден чоң болот - бул учурда
+                                        оң бүтүн сан 1ден чоң болушу керек. Экинчи параметр, бул
+                                        милдеттүү эмес, баскычтын ордун көрсөтөт - ал башталган учур
+                                        төмөнкү баалуулуктардын бирин колдонуу менен анимация:
+                                        <br><br>
+                                        <ul>
+                                            <li><code>jump-start</code> — биринчи кадам мааниси 0 болгондо пайда болот
+                                            </li>
+                                            <li><code>jump-end</code> — акыркы кадам мааниси 1 болгондо болот</li>
+                                            <li><code>jump-none</code> — бардык кадамдар диапазондо болот (0, 1)</li>
+                                            <li><code>jump-both</code> — биринчи кадам 0 маанисинде, акыркы кадам 1
+                                                маанисинде
+                                                болот
+                                            </li>
+                                            <li><code>start</code> — <code>jump-start</code> сыяктуу мамиле кылат</li>
+                                            <li><code>jend</code> — <code>jump-end</code> жүрөт</li>
+                                        </ul>
+                                        <br>
+                                        Баштоо мааниси менен, анимация ар бир кадамдын башталышында, аяктоочу мааниси
+                                        менен башталат -
+                                        кечигүү менен ар бир кадамдын аягында. Кечигүү бөлүнүүнүн натыйжасында эсептелет
+                                        кадамдардын санына анимация убактысы. Экинчи параметр көрсөтүлбөсө,
+                                        демейки аягы.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading15">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse15" aria-expanded="false"
+                                aria-controls="flush-collapse15">
+                            <code class="tag">animation-iteration-count</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse15" class="accordion-collapse collapse" aria-labelledby="flush-heading15"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>animation-iteration-count</code>
+                                касиети анимация циклинин канча жолу ойнолушун көрсөтөт.
+                                Баштапкы 1 мааниси анимация башынан аягына чейин бир жолу ойной турганын билдирет. Бул
+                                касиет көбүнчө анимациянын багыты касиетинин альтернативдүү мааниси менен бирге
+                                колдонулат, бул анимацияны башка циклдарда тескери тартипте ойнотууга алып келет.
+                                <br>
+                                Мүлк мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>animation-iteration-count</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>infinite</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация чексиз ойнойт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>Сан</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация көрсөтүлгөн санда кайталанат. Эгерде сан бүтүн сан болбосо, анимация
+                                        акыркы циклдин ортосунда бүтөт. Терс сандар жараксыз. 0 мааниси анимациянын
+                                        заматта күйүп кетишине себеп болот.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading16">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse16" aria-expanded="false"
+                                aria-controls="flush-collapse16">
+                            <code class="tag">animation-direction</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse16" class="accordion-collapse collapse" aria-labelledby="flush-heading16"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>animation-direction</code>
+                                Анимациянын багыты касиети анимациянын кээ бирлеринде же баарында тескери тартипте
+                                ойношу керектигин аныктайт. Анимация артка ойнотулганда, убакыт функциялары да
+                                алмаштырылат. Мисалы, тескерисинче ойнотулганда, <code>ease-in</code> функциясы <code>ease-out</code>
+                                сыяктуу
+                                иштейт.
+                                <br>
+                                Мүлк мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>animation-direction</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>normal</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Бардык анимацияларды кайра ойнотуу көрсөтүлгөндөй ойнойт. Демейки маани.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>reverse</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Бардык анимациялар кантип аныкталганынан артка ойнойт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>alternate</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация циклинин ар бир так кайталануусу кадимки багытта ойнойт, ал эми ар бир
+                                        жуп цикл карама -каршы багытта ойнойт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>alternate-reverse</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация циклинин ар бир так кайталануусу артка, ар бир жуп кайталануу кадимки
+                                        багытта ойнотулат.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading17">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse17" aria-expanded="false"
+                                aria-controls="flush-collapse17">
+                            <code class="tag">animation-play-state</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse17" class="accordion-collapse collapse" aria-labelledby="flush-heading17"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>animation-play-state</code>
+                                касиети анимациянын башталганын же тындырылганын аныктайт. Циклдин
+                                ичинде анимацияны токтотуу бул касиетти JavaScript скриптинде колдонуу менен мүмкүн
+                                болот. Мышканы объекттин үстүнө алып келгенде анимацияны токтото аласыз - state: hover.
+                                <br>
+                                Мүлк мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>animation-direction</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>running</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация иштеп жатат. Демейки маани.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>paused</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация токтотулат. Кайра башталганда, анимация токтогон жерден башталат,
+                                        анимацияны башкаруучу "саат" токтоп, кайра башталгандай. Эгерде анимация кечигүү
+                                        учурунда токтотулса, кечиктирүү убактысы кайра ойнотулганда кайра башталат.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading18">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse18" aria-expanded="false"
+                                aria-controls="flush-collapse18">
+                            <code class="tag">animation-delay</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse18" class="accordion-collapse collapse" aria-labelledby="flush-heading18"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>animation-delay</code>
+                                касиети анимация качан башталаарын аныктайт. Секунда <code>s</code> же
+                                миллисекундтарда <code>ms</code>.
+                                <br>
+                                Мүлк мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>animation-delay</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>Убакыт</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Убакыт анимациянын башталышынын ортосундагы убакытты (анимация касиеттер аркылуу
+                                        элементке колдонулганда) жана ал иштей баштаганда аныктайт. Терс баалуулуктарга
+                                        жол берилет, бул кечигүү анимацияны өзүнүн циклинин ичиндеги белгилүү бир жерден
+                                        баштайт, б.а. кечигүүдө көрсөтүлгөн убакыттан тартып. Бул анимацияны кечигүү
+                                        убактысын өзгөртүү менен гана фазанын жылышынын бир нече элементтерине
+                                        колдонууга мүмкүндүк берет. Анимацияны ортодон баштоо үчүн, <code>animation-delay</code>
+                                        белгиленген убакыттын жарымына барабар терс кечигүүнү коюу керек. Демейки 0с.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading19">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse19" aria-expanded="false"
+                                aria-controls="flush-collapse19">
+                            <code class="tag">animation-fill-mode</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse19" class="accordion-collapse collapse" aria-labelledby="flush-heading19"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>animation-fill-mode</code>
+                                режими касиети анимация тарабынан анын иштөө убактысынан тышкары кайсы
+                                баалуулуктар колдонуларын аныктайт. Анимация аяктаганда, элемент баштапкы стилине
+                                кайтат. Демейки боюнча, анимация элементке анимация колдонулганда анимациянын аталышынын
+                                жана анимациянын кечигүү касиеттеринин маанилерине таасир этпейт. Мындан тышкары,
+                                демейки боюнча, анимация аяктагандан кийин анимация-узактыгы жана
+                                анимация-итерация-эсептөө касиеттеринин маанилерине таасир этпейт. <code>animation-fill-mode</code>
+                                режими касиети бул жүрүм-турумду жокко чыгара алат.
+                                <br>
+                                Мүлк мураска калган эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>animation-fill-mode</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>none</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Демейки маани. Элемент абалы анимация ойногонго чейин же кийин өзгөрбөйт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>forwards</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Анимация аяктагандан кийин (<code>animation-iteration-count</code> боюнча
+                                        аныкталат),
+                                        анимация анимация аяктаганга чейин мулк баалуулуктарын колдонот. Эгерде
+                                        <code>animation-iteration-count</code> нөлдөн чоң болсо, анда акыркы бүткөн
+                                        анимациянын аягынын
+                                        мааниси колдонулат (кийинки кайталоонун башталышынын мааниси эмес). Эгерде
+                                        анимация-кайталоо-саны нөлгө барабар болсо, анда колдонулуучу маанилер биринчи
+                                        кайталоону баштайт (<code>nimation-fill-mode</code>:<code>backwards</code>;
+                                        менен бирдей).
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>backwards</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        <code>animation-delay</code> менен көрсөтүлгөн мезгилде анимация ачкыч кадрда
+                                        көрсөтүлгөн
+                                        касиет баалуулуктарын колдонот, ал анимациянын биринчи кайталанышын баштайт. Бул
+                                        ачкыч кадр маанилеринен (<code>animation-direction: normal</code> же <code>animation-direction:
+                                        alternate</code>) же ачкыч кадр маанилерине (<code>animation-direction:
+                                        reverse</code> же
+                                        <code>animation-direction: alternate</code>).
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>both</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Элемент анимациянын башталышына чейин (негизги кечигүү маанисин этибарга
+                                        албаганга чейин) жана биринчи кадрда акыркы анимациянын аягына чейин кармалышына
+                                        жол берет.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading20">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse20" aria-expanded="false"
+                                aria-controls="flush-collapse20">
+                            <code class="tag">animation</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse20" class="accordion-collapse collapse" aria-labelledby="flush-heading20"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>animation</code>
+                                Бардык анимацияны ойнотуу параметрлери бир касиетке бириктирилиши мүмкүн - анимация,
+                                аларды боштук менен бөлүп тизмектейт: Мисалы: <code>animation: animation-name
+                                animation-duration animation-timing-function animation-delay animation-iteration-count
+                                animation-direction</code>;
+                                <br>
+                                Анимацияны ойнотуу үчүн эки гана касиетти көрсөтүү жетиштүү- <code>animation-name</code>
+                                жана
+                                <code>animation-duration</code>, калган касиеттер демейки маанилерин алышат.
+                                Кыймылдардын
+                                тизмеленишинин тартиби эч кандай мааниге ээ эмес, бир гана нерсе <code>animation-duration</code>
+                                <code> animation-delay</code> мурун келиши керек.
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading21">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse21" aria-expanded="false"
+                                aria-controls="flush-collapse21">
+                            <code class="tag">margin-top/margin-right/margin-bottom/margin-left</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse21" class="accordion-collapse collapse" aria-labelledby="flush-heading21"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>margin-top/margin-right/margin-bottom/margin-left</code>
+                                Касиеттер тиешелүү түрдө элементтер блогунун үстүнкү, оң, асты жана сол жагын толтурат.
+                                Терс баалуулуктарга жол берилет, бирок ишке ашыруу үчүн атайын чектөөлөр колдонулушу
+                                мүмкүн.
+                                <br>
+                                Мүлк тукум кууп өткөн эмес.
+                                <br><br>
+                                <h1 style="font-size: 20px; text-align: center; font-weight: bold;">
+                                    <code>margin-top/margin-right/margin-bottom/margin-left</code></h1>
+                                <thead>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>узундугу</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Чегинүүнүн өлчөмү узундук бирдиги менен белгиленет, мисалы, px, in, em. Демейки
+                                        0.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>%</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Контейнер блогунун туурасына карата эсептелген. Ата -энелик элементтин туурасы
+                                        өзгөрсө өзгөртүлгөн.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>auto</code>
+                                    </th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Калкып турган сап деңгээлиндеги элементтер үчүн, <code>margin-left</code> же
+                                        <code>margin-right</code> маанилер 0
+                                        деп эсептелинет. Эгерде <code>margin-left: auto;</code> же <code>margin-right:
+                                        auto;</code> блок
+                                        деңгээлиндеги элементтер үчүн көрсөтүлсө, тийиштүү маржа кеңейтилет камтылган
+                                        блоктун четине чейин, эгер экөөнүн тең мааниси бирдей болсо, бул элементти
+                                        камтыган блоктун четине карата горизонталдуу борборлоштурат.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>initial</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Мүлк маанисин анын демейки маанисине коёт.
+                                    </th>
+                                </tr>
+                                <tr>
+                                    <th style="border: 1px solid red;" scope="col">
+                                        <code>inherit</code></th>
+                                    <th style="color: white; border: 1px solid red" scope="col">
+                                        Негизги элементтен менчиктин баалуулугун мураска алат.
+                                    </th>
+                                </tr>
+                                </thead>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading22">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse22" aria-expanded="false"
+                                aria-controls="flush-collapse22">
+                            <code class="tag">margin</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse22" class="accordion-collapse collapse" aria-labelledby="flush-heading22"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>margin</code>
+                                касиети бир декларацияда <code>margin-top</code>, <code>margin-right</code>, <code>margin-bottom</code> жана <code>margin-left</code>
+                                коюу үчүн стенографиялык касиет.
+                                <br><br>
+                                Эгерде бир гана баалуулук болсо, ал бардык тараптарга тиешелүү
+                                <br><br>
+                                Эгерде экөө болсо, анда жогорку жана астыңкы четтер биринчи мааниге, ал эми оң жана сол
+                                жээктер экинчисине коюлат.
+                                <br><br>
+                                Эгерде үч баалуулук болсо, анда жогорку чеги биринчи мааниге, сол жана оң четтери
+                                экинчисине, астыңкы чети үчүнчүсүнө коюлат.
+                                <br><br>
+                                Эгерде төрт баалуулук болсо, алар тиешелүүлүгүнө жараша жогорку, оң, асты жана сол
+                                жагында колдонулат.
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-heading23">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#flush-collapse23" aria-expanded="false"
+                                aria-controls="flush-collapse23">
+                            <code class="tag">padding-top/padding-right/padding-bottom/padding-left</code>
+                        </button>
+                    </h2>
+                    <div id="flush-collapse23" class="accordion-collapse collapse" aria-labelledby="flush-heading23"
+                         data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">
+                            <table class="table">
+                                <code>padding-top/padding-right/padding-bottom/padding-left</code>
+                                касиети бир декларацияда <code>margin-top</code>, <code>margin-right</code>, <code>margin-bottom</code> жана <code>margin-left</code>
+                                коюу үчүн стенографиялык касиет.
+                                <br><br>
+                                Эгерде бир гана баалуулук болсо, ал бардык тараптарга тиешелүү
+                                <br><br>
+                                Эгерде экөө болсо, анда жогорку жана астыңкы четтер биринчи мааниге, ал эми оң жана сол
+                                жээктер экинчисине коюлат.
+                                <br><br>
+                                Эгерде үч баалуулук болсо, анда жогорку чеги биринчи мааниге, сол жана оң четтери
+                                экинчисине, астыңкы чети үчүнчүсүнө коюлат.
+                                <br><br>
+                                Эгерде төрт баалуулук болсо, алар тиешелүүлүгүнө жараша жогорку, оң, асты жана сол
+                                жагында колдонулат.
+                            </table>
+                        </div>
+                    </div>
+                </div>
+                <!----------------------------------------------------------------------------------------------------->
+
+            </div>
+        </div>
+    </div>
+</section>
+<script src="js/script.js"></script>
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

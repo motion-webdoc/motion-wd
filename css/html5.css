@@ -1,0 +1,45 @@
+.hero__title {
+   padding-top: 50px;
+
+}
+code {
+   font-size: 20px;
+   /*color: #86ff15;*/
+}
+
+.accordion-item {
+   background: #444444;
+}
+
+.accordion-button {
+   color: white;
+   background: #000;
+
+}
+.accordion-button:focus {
+   border: none;
+   box-shadow: none;
+}
+
+.accordion-button:not(.collapsed) {
+   color: yellow;
+   background: #000;
+}
+
+.hero__title {
+   padding-top: 100px;
+   color: white;
+   font-weight: 700;
+   border-bottom: 2px solid white;
+}
+
+.accordion-body {
+   color: white;
+}
+.search-btn{
+   width: 24px;
+   height: 24px;
+}
+.accordion div.hide{
+   display: none;
+}
